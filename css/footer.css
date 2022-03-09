@@ -1,0 +1,29 @@
+.footer {
+    width: 80%;
+    height: 56px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.footer::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: #781BFF;
+    left: 0;
+    top: 0%;
+    opacity: 0.1;
+}
+
+.footer p {
+    font-size: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.7;
+    font-weight: 400;
+    color: #000B33;
+}

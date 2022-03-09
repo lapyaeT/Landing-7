@@ -1,0 +1,111 @@
+.about {
+    width: 100%;
+    height: 480px;
+    background-image: url(../images/bg\ \(2\).png);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.about__container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about__container img {
+    width: 50%;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: -2rem;
+}
+
+.about__container-right h4{
+    font-size: 0.9rem;
+    color: #377CFD;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.8rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+.about__container-right h1 {
+    font-size: 2rem;
+    font-family:'Roboto', sans-serif;
+    color: black;
+    font-weight: 600;
+    line-height: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+    margin-right: 5rem;
+}
+
+.about__container-right p {
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    color: #000B33;
+    font-weight: 300;
+    opacity: 0.7;
+    line-height: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-right: 5rem;
+}
+
+.about__container-right button {
+    outline: none;
+    background-color: #FD4C5C;
+    border-radius: 8px;
+    border: none;
+    color: aliceblue;
+    font-size: 0.8rem;
+    padding: 0.8rem 1.6rem;
+    margin-right: 5rem;
+}
+
+.circle1 {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #FFC83E;
+    bottom: 14rem;
+    left: 4rem;
+}
+
+.circle2 {
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    border: 3px solid #00BB98;
+    border-radius: 50%;
+    bottom: 6rem;
+    right: 16.5rem;
+}
+
+@media (min-width:1380px) {
+    .about {
+        height: 540px;
+    }
+
+    .about__container img {
+        width: 52%;
+        height: auto;
+        margin-top: 1.5rem;
+    }
+
+    .about__container-right {
+        margin-right: 4rem;
+    }
+
+    .circle1 {
+        bottom: 16rem;
+        left: 4rem;
+    }
+
+    .circle2 {
+        bottom: 7rem;
+        right: 22rem;
+    }
+}

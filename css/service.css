@@ -1,0 +1,113 @@
+.service {
+    width: 100%;
+    height: 560px;
+    background-image: url(../images/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+
+.service__container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service__container-left h4{
+    font-size: 0.9rem;
+    color: #377CFD;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.4rem;
+}
+
+.service__container-left h1 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: Bold;
+    font-weight: 600;
+    color: black;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 1.4rem;
+}
+
+.service__container-left p {
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    color: #000B33;
+    font-weight: 300;
+    opacity: 0.7;
+    line-height: 1.2rem;
+    margin-bottom: 1.4rem;
+}
+
+.service__container-left button {
+    outline: none;
+    background-color: #FD4C5C;
+    border-radius: 4px;
+    border: none;
+    color: aliceblue;
+    font-size: 0.8rem;
+    padding: 0.8rem 1.4rem;
+}
+
+.service__container-right {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.4rem;
+    padding-right: 3rem;
+}
+
+.service__container-right img {
+   width: 100%;
+   height: auto;
+   margin-left: 4.2rem;
+   margin-top: 0.8rem;
+}
+
+.circle3 {
+    position: absolute;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #FD4C5C;
+    border-radius: 50%;
+    top: 1rem;
+    right: 2rem;
+}
+
+.circle4 {
+    position: absolute;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #FD4C5C;
+    border-radius: 50%;
+    top: 22%;
+    left: 2rem;
+}
+
+.circle5 {
+    position: absolute;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    border: 2px solid #FFC83E;
+    bottom: 45%;
+    left: 50%;
+    overflow: hidden;
+}
+
+@media (min-width:1380px) {
+    .service {
+        height: 580px;
+    }
+
+    .service__container-right {
+        padding-bottom: 0rem;
+    }
+}
