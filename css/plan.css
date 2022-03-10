@@ -227,10 +227,15 @@
 
 @media (min-width:1380px) {
     .plan {
-        height: 850px;
+        height: 940px;
     }
 
     .card {
-        width: 20rem;
+        width: 18rem;
+        height: 460px;
+    }
+
+    .card2 {
+        height: 520px;
     }
 }

@@ -2,12 +2,15 @@
     width: 80%;
     height: 320px;
     display: flex;
-    background-image: url(../images/Background\ 2.png);
+    background-image: url(../images/BG\ 2.png);
     background-size: cover;
     margin: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 2rem;
+    overflow: hidden;
+    position: relative;
 }
 
 .cummunity h1 {
@@ -29,6 +32,8 @@
     border-radius: 4px;
     width: 24rem;
     height: 2.2rem;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
     padding-left: 1.5rem;
 }
 
@@ -44,4 +49,12 @@
     color: azure;
     font-size: 0.6rem;
     padding: 0.4rem 1rem;
+}
+
+.bg-layer1 {
+    position: absolute;
+    width: 8rem;
+    height: auto;
+    bottom: 0%;
+    right: 0;
 }

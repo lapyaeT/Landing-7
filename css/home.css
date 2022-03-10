@@ -1,7 +1,7 @@
 .home {
     width: 100%;
     height: 720px;
-    background-image: url(../images/Background.png);
+    background-image: url(../images/BG.png);
     background-position: bottom;
     background-size: cover;
     position: relative;
@@ -18,7 +18,7 @@
 
 .hero h1 {
     font-size: 3rem;
-    color: whitesmoke;
+    color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     line-height: 3.2rem;
@@ -27,7 +27,7 @@
 }
 
 .hero p {
-    color: whitesmoke;
+    color: #FFFFFF;
     margin-top: 1rem;
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
@@ -52,7 +52,7 @@
     border: none;
     border-radius: 6px;
     font-size: 0.8rem;
-    color: whitesmoke;
+    color: #FFFFFF;
     background-color: #FD4C5C;;
 }
 
@@ -69,8 +69,8 @@
 }
 
 .hero__container-item p {
-    color: whitesmoke;
-    font-weight: 300;
+    color: #FFFFFF;
+    font-weight: 400;
     padding-top: 1rem;
 }
 /*hero end*/
