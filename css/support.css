@@ -36,7 +36,7 @@
     line-height: 1.3rem;
     color: #000B33;
     opacity: 0.8;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .support__container-item1-link {
@@ -69,7 +69,7 @@
 .support__container-item2 p {
     font-family: 'Roboto', sans-serif;
     color: #000B33;
-    font-weight: 400;
+    font-weight: 300;
     opacity: 0.8;
     font-size: 0.8rem;
 }
@@ -94,7 +94,7 @@
     font-family: 'Roboto', sans-serif;
     color: #000B33;
     opacity: 0.8;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 0.8rem;
     line-height: 1.3rem;
     padding-bottom: 0.4rem;
