@@ -126,6 +126,7 @@
 
     .support__container-item1 {
         width: 100%;
+        margin-bottom: 2rem;
         gap: 1rem;
     }
 
@@ -136,12 +137,7 @@
     }
 
     .support__container-item1-link {
-        width: 100%;
-        height: 3rem;
-    }
-
-    .support__container-item1-link i {
-        font-size: 2rem;
+        width: 40%;
     }
 
     .support__container-item2 {

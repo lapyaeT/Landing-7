@@ -117,6 +117,24 @@
         margin-bottom: 2rem;
     }
 
+    .service__container-left h4 {
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .service__container-left h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .service__container-left p {
+        font-size: 0.9rem;
+        opacity: 0.8;
+        font-weight: 400;
+        line-height: 1.3rem;
+        letter-spacing: 0.8px;
+    }
+
     .web{
         display: none;
     }
