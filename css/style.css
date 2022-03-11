@@ -40,8 +40,19 @@ Table of Contents
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@100;300;400;500&display=swap');
 
 
+body {
+    width: 100%;
+}
+
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+@media (min-width:0) and (max-width:480px) {
+    html {
+        font-size: 12px;
+    }
 }
 
 @media (min-width:1380px) {

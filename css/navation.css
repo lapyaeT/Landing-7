@@ -25,7 +25,8 @@
     cursor: pointer;
 }
 
-.navation__container-item2 ul li {
+.navation__container-item2 ul li a{
+    text-decoration: none;
     color: aliceblue;
     font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
@@ -54,4 +55,31 @@
 
 .navation__container-line {
     display: none;
+}
+
+.navation__container-line .line {
+    width: 25px;
+    height: 3px;
+    background-color: aliceblue;
+    margin-bottom: 0.3rem;
+    margin-right: 1rem;
+}
+
+@media (min-width:0) and (max-width:480px) {
+    .navation__container {
+        width: 90%;
+    }
+
+    .navation__container img {
+        height: 35%;
+    }
+
+    .navation__container-item2 ul, .navation__container-item3 {
+        display: none;
+    }
+    
+    .navation__container-line {
+        display: block;
+        margin-top: -1rem;
+    }
 }

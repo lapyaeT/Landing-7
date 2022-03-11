@@ -75,6 +75,158 @@
 }
 /*hero end*/
 
+/*background mobile start*/
+.bg__1 {
+    display: none;
+}
+
+.bg__2 {
+    display: none;
+}
+
+.bg__3 {
+    display: none;
+}
+
+.bg__4 {
+    display: none;
+}
+
+.bg__5 {
+    display: block;
+}
+
+.bg__6 {
+    display: none;
+}
+
+.bg__7 {
+    display: none;
+}
+/*background mobile end*/
+
+@media (min-width:0) and (max-width:480px) {
+
+    .home {
+        width: 100%;
+        height: 950px;
+        background: #001C80;
+    }
+
+    .hero {
+        width: 90%;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .hero p {
+        width: 90%;
+        font-size: 0.9rem;
+        opacity: 0.8;
+    }
+
+    .hero__container {
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero__container button {
+        width: 18rem;
+        padding: 1.2rem 0;
+        font-size: 1.3rem;
+    }
+
+    .hero__container-item img {
+        height: 3.5rem;
+        padding-left: 0;
+    }
+
+    .hero__container-item p{
+        width: 100%;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    .bg__1 {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        bottom: 0%;
+        z-index: 2;
+    }
+
+    .bg__2 {
+        display: block;
+        position: absolute;
+        height: 19%;
+        width: auto;
+        right: 10%;
+        bottom: 30%;
+        z-index: 1;
+    }
+
+    .bg__3 {
+        display: block;
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        background-color: #FFC83E;
+        bottom: 35%;
+        left: 4%;
+    }
+
+    .bg__4 {
+        display: block;
+        position: absolute;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #FD4C5C;
+        bottom: 47%;
+        left: 6%;
+    }
+
+    .bg__5 {
+        display: block;
+        position: absolute;
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 50%;
+        border: #00BB98 1.5px solid;
+        bottom: 59%;
+        right: 40%;
+    }
+
+    .bg__6 {
+        display: block;
+        position: absolute;
+        width: 0.6rem;
+        height: 0.6rem;
+        background-color: #FFC83E;
+        border-radius: 50%;
+        top: 8%;
+        left: 2%;
+    }
+
+    .bg__7 {
+        display: block;
+        position: absolute;
+        width: 0.6rem;
+        height: 0.6rem;
+        background-color: #FD4C5C;
+        border-radius: 50%;
+        top: 18%;
+        right: 24%;
+    }
+}
+
 @media (min-width:1380px) {
     .home {
         height: 800px;
