@@ -133,7 +133,8 @@
 @media (min-width:0) and (max-width:480px) {
 
     .software {
-        height: 700px;
+        height: 680px;
+        overflow: hidden;
     }
 
     .software__container {
@@ -155,6 +156,10 @@
         display: none;
     }
 
+    .software__container-item1 a:hover {
+        color: #FD4C5C;
+    }
+
     .software__container-item2 {
         width: 100%;
         flex-direction: column;
@@ -162,8 +167,9 @@
     }
 
     .software__container-item2 img {
-        width: 100%;
-        margin-left: -2rem;
+        width: 121%;
+        margin-left: -3.5rem;
+        margin-top: -0.5rem;
     }
 
     .software__container-item2-text {
@@ -172,20 +178,30 @@
     }
 
     .software__container-item2-text h1 {
+        font-size: 2rem;
         text-align: center;
-        margin-top: 1rem;
+        margin: auto;
+        margin-top: 0;
     }
 
     .software__container-item2-text p {
         font-size: 0.9rem;
         font-weight: 400;
         opacity: 0.8;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: auto;
     }
 
     .software__container-item2-store img {
-        width: 45%;
+        width: 40%;
         height: auto;
         margin-left: -3rem;
+        margin-top: 2rem;
+    }
+
+    .bg1 {
+        display: none;
     }
 }
 

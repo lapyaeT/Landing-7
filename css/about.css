@@ -5,6 +5,7 @@
     background-size: cover;
     background-position: bottom;
     position: relative;
+    overflow: hidden;
 }
 
 .about__container {
@@ -107,8 +108,8 @@
     }
 
     .about__container img {
-        margin-left: -2rem;
-        width: 100%;
+        margin-left: -3rem;
+        width: 121%;
         padding-bottom: 3rem;
     }
 
@@ -134,7 +135,7 @@
 
     .about__container-right button {
         padding: 0.8rem 1.8rem;
-        font-size: 00.9rem;
+        font-size: 0.9rem;
     }
 
     .circle1 {

@@ -42,6 +42,7 @@ Table of Contents
 
 body {
     width: 100%;
+    overflow-x: hidden;
 }
 
 html {
@@ -52,6 +53,12 @@ html {
 @media (min-width:0) and (max-width:480px) {
     html {
         font-size: 12px;
+    }
+}
+
+@media (min-width:481px) and (max-width:786) {
+    html {
+        font-size: 14px;
     }
 }
 

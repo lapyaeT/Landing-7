@@ -27,3 +27,15 @@
     font-weight: 300;
     color: #000B33;
 }
+
+@media (min-width:0) and (max-width:480px) {
+    .footer {
+        width: 90%;
+        justify-content: flex-start;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+
+}

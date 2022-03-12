@@ -126,27 +126,35 @@
 
     .support__container-item1 {
         width: 100%;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
         gap: 1rem;
     }
 
     .support__container-item1 p {
-        font-weight: 400;
-        font-size: 0.9rem;
-        line-height: 1.4rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-top: 1.5rem;
     }
+
 
     .support__container-item1-link {
         width: 40%;
+        margin-top: 1rem;
     }
 
     .support__container-item2 {
         width: 100%;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
+        gap: 1.5rem;
     }
 
     .support__container-item2 h3 {
-        padding-bottom: 0%;
+        padding-bottom: 0.8rem;
+        font-size: 1.1rem;
+    }
+
+    .support__container-item2 p {
+        font-size: 1rem;
     }
 
     .support__container-item4 {
@@ -154,11 +162,19 @@
     }
 
     .support__container-item4 h3 {
-        padding-bottom: 0;
+        padding-bottom: 0.8rem;
+        font-size: 1.1rem;
+    }
+
+    .support__container-item4 p {
+        font-size: 1rem;
+        line-height: 1.6rem;
     }
 
     .support__container-item4-store {
         width: 40%;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
     }
 }
 
