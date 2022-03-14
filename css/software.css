@@ -205,6 +205,88 @@
     }
 }
 
+@media (min-width:421px) and (max-width:820px) {
+
+    .software {
+        height: 1280px;
+        overflow: hidden;
+    }
+
+    .software__container {
+        width: 90%;
+    }
+
+    .software__container-item1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .software__container-item1 a {
+        font-size: 1.2rem;
+    }
+
+    .software__container-item1::after  {
+        display: none;
+    }
+
+    .software__container-item1 a::after {
+        display: none;
+    }
+
+    .software__container-item1 a:hover {
+        color: #FD4C5C;
+    }
+
+    .software__container-item2 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .software__container-item2 img {
+        width: 122%;
+        margin-left: -5rem;
+        margin-top: -0.5rem;
+    }
+
+    .software__container-item2-text {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .software__container-item2-text h1 {
+        font-size: 3rem;
+        line-height: 3.8rem;
+        text-align: center;
+        margin: auto;
+        margin-top: 0;
+        padding-bottom: 1rem;
+    }
+
+    .software__container-item2-text p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        opacity: 0.8;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+
+    .software__container-item2-store img {
+        width: 35%;
+        height: auto;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    .bg1 {
+        display: none;
+    }
+}
+
 @media (min-width:1380px) {
     .software {
         height: 640px;
@@ -212,5 +294,23 @@
 
     .software__container-item2-text {
         margin-left: 2rem;
+    }
+}
+
+@media (min-width:1500px) {
+    .software {
+        height: 720px;
+    }
+}
+
+@media (min-width:1700px) {
+    .software {
+        height: 800px;
+    }
+}
+
+@media (min-width:1900px) {
+    .software {
+        height: 880px;
     }
 }

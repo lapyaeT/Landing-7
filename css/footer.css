@@ -39,3 +39,33 @@
     }
 
 }
+
+@media (min-width:481px) and (max-width:820px) {
+    .footer {
+        width: 90%;
+    }
+}
+
+@media (min-width:1380px) {
+    .footer {
+        height: 64px;
+    }
+}
+
+@media (min-width:1500px) {
+    .footer {
+        height: 72px;
+    }
+}
+
+@media (min-width:1700px) {
+    .footer {
+        height: 80px;
+    }
+}
+
+@media (min-width:1900px) {
+    .footer {
+        height: 88px;
+    }
+}
