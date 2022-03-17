@@ -142,7 +142,7 @@
         display: block;
         z-index: 1001;
         position: absolute;
-        right: 5%;
+        right: -4%;
     }
 
     .check-btn .line {
